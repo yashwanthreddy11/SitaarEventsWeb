@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sitaar Events | Gallery</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="container-fluid sticky-top">
+
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container">
+
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <strong class="text-bg-warning">
+                        Sitaar Events
+                    </strong>
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation -->
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="menu"
+                >
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link active">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">
+                                Our Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         GALLERY INTRO
+    ====================================================== -->
+
+    <main>
+
+        <section class="gallery-page">
+
+            <div class="heading2">
+
+                <h1 class="text-warning">
+                    Our Gallery
+                </h1>
+
+                <h6>
+                    Welcome to the
+                    <strong class="text-danger">
+                        visual storybook of Sitaar Events
+                    </strong>
+                    — where every picture captures the magic we create.
+                </h6>
+
+                <p>
+                    From grand weddings and luxurious corporate functions
+                    to intimate private celebrations, each image showcases
+                    our attention to detail, creativity, and passion for
+                    perfection.
+                </p>
+
+                <p>
+                    We believe that events are more than just dates on a
+                    calendar — they're unforgettable experiences.
+                    Our gallery is a celebration of the beautiful moments
+                    we've designed, planned, and brought to life for our
+                    wonderful clients.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 GALLERY INTRO MESSAGE
+            ================================================== -->
+
+            <div class="gallery-moments">
+
+                <h6>
+                    Take a moment to explore, get inspired, and see how
+                    Sitaar Events transforms ideas into lasting memories.
+                </h6>
+
+            </div>
+
+
+            <!-- =================================================
+                 FEATURED CAROUSEL
+            ================================================== -->
+
+            <section class="carousel-gallery">
+
+                <div
+                    id="mainSlide"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                    data-bs-interval="4000"
+                >
+
+                    <!-- Carousel Indicators -->
+
+                    <div class="carousel-indicators">
+
+                        <button
+                            type="button"
+                            data-bs-target="#mainSlide"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+
+                        <button
+                            type="button"
+                            data-bs-target="#mainSlide"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+
+                        <button
+                            type="button"
+                            data-bs-target="#mainSlide"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+
+                    </div>
+
+
+                    <!-- Carousel Images -->
+
+                    <div class="carousel-inner">
+
+                        <!-- Slide 1 -->
+
+                        <div class="carousel-item active">
+
+                            <div class="banner2">
+
+                                <img
+                                    src="assets/gallery1.jpg"
+                                    alt="Sitaar Events celebration"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Slide 2 -->
+
+                        <div class="carousel-item">
+
+                            <div class="banner2">
+
+                                <img
+                                    src="assets/gallery2.jpg"
+                                    alt="Sitaar Events event decoration"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Slide 3 -->
+
+                        <div class="carousel-item">
+
+                            <div class="banner3">
+
+                                <img
+                                    src="assets/gallery4.jpg"
+                                    alt="Sitaar Events special event"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Previous Button -->
+
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#mainSlide"
+                        data-bs-slide="prev"
+                    >
+
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+
+                        <span class="visually-hidden">
+                            Previous
+                        </span>
+
+                    </button>
+
+
+                    <!-- Next Button -->
+
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#mainSlide"
+                        data-bs-slide="next"
+                    >
+
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+
+                        <span class="visually-hidden">
+                            Next
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 PHOTO GALLERY
+            ================================================== -->
+
+            <section class="gallery-grid">
+
+                <div class="container">
+
+                    <div class="row g-4">
+
+                        <!-- Gallery Image 1 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery8.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gallery Image 2 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery5.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gallery Image 3 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery6.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gallery Image 4 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery7.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gallery Image 5 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery8.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Gallery Image 6 -->
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+
+                            <div class="card2">
+
+                                <div class="card-body">
+
+                                    <img
+                                        src="assets/gallery4.jpg"
+                                        alt="Sitaar Events gallery image"
+                                        class="images2"
+                                    >
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FOLLOW US
+            ================================================== -->
+
+            <section class="social-section">
+
+                <div class="container">
+
+                    <div class="text-center p-4">
+
+                        <h4 class="text-primary">
+                            <i class="bi bi-phone"></i>
+                            Follow Us
+                        </h4>
+
+                        <h6>
+                            Stay connected and join our community:
+                        </h6>
+
+
+                        <div class="social-links">
+
+                            <!-- Instagram -->
+
+                            <a
+                                href="https://www.instagram.com/sitaar_events?igsh=c3g1MDFqc29ubzJl"
+                                aria-label="Instagram"
+                                class="p-2"
+                            >
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+
+                            <!-- WhatsApp -->
+
+                            <a
+                                href="https://wa.me/919000047809?text=Hello%20Thanks%20for%20Contacting%20Sitaar%20Events"
+                                aria-label="WhatsApp"
+                                class="p-2"
+                            >
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+
+
+                            <!-- X / Twitter -->
+
+                            <a
+                                href="#"
+                                aria-label="Twitter"
+                                class="p-2"
+                            >
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+
+
+                            <!-- YouTube -->
+
+                            <a
+                                href="#"
+                                aria-label="YouTube"
+                                class="p-2"
+                            >
+                                <i class="bi bi-youtube"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="text-center">
+
+        <p class="mb-0">
+            © 2026 Sitaar Events. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- =====================================================
+         BOOTSTRAP JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
